@@ -168,7 +168,9 @@ document.getElementById('con_menu_9').style.display='block';
 function conj(){
 document.getElementById('con_menu_10').style.display='block';
 }
-
+function conk(){
+document.getElementById('con_menu_11').style.display='block';
+}
 
 
 </script> 
@@ -214,7 +216,10 @@ if(GetQueryString("f")==9){
 }
 if(GetQueryString("f")==10){
 	document.write("<body onload='conj()'>");
-}	
+}
+	if(GetQueryString("f")==11){
+	document.write("<body onload='conk()'>");
+}
 </script>
  <div class="header"><p>冬参佛法</p></div>
  <div id="nav">
@@ -230,7 +235,7 @@ if(GetQueryString("f")==10){
           <li id="menu8"><a href="xiouwap.html?nav=62000&f=7&v=80020">正念方法</li>
 		<li id="menu9"><a href="xiouwap.html?nav=62000&f=9&v=80017">佛咒</li>
 		<li id="menu10"><a href="xiouwap.html?nav=62000&f=10&v=80018">佛咒注音</li>
-			 
+<li id="menu11"><a href="xiouwap.html?nav=62000&f=11&v=8005">佛咒注解</li> 
     </ul>
 	
  </div>
@@ -433,6 +438,24 @@ goPage(1,150,10);
 </script> 
 </div>
 </div>
+<div id="con_menu_11" style="display:none">
+<div class="shipin">
+<div class="list_sp">
+				<ul id="idData_11">
+					        
+				<center><script type="text/javascript" src="./xiouzheng/fozhoujie.js"></script></center>     
+                   
+
+  
+				</ul>
+			</div>
+<script src="ZLpages.js"></script>     	
+<center><div class="pages" id="barcon_11"></div></center>
+<script> 
+goPage(1,150,10); 
+</script> 
+</div>
+</div>  
   </div >
    
    </div>
