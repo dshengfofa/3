@@ -45,7 +45,7 @@ p:hover {
 }
 .u{
 font-family:&#26999;&#20307;;
-padding:20px 5px 15px 20px;
+padding:10px 10px 10px 10px;
 }
 
  .nav{
@@ -178,6 +178,9 @@ document.getElementById('con_menu_9').style.display='block';
 function conj(){
 document.getElementById('con_menu_10').style.display='block';
 }
+function conk(){
+document.getElementById('con_menu_11').style.display='block';
+}
  //&#24179;&#21488;&#12289;&#35774;&#22791;&#21644;&#25805;&#20316;&#31995;&#32479;  
 var system ={  
 win : false,  
@@ -192,7 +195,7 @@ system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
 //&#36339;&#36716;&#35821;&#21477;&#65292;&#22914;&#26524;&#26159;&#25163;&#26426;&#35775;&#38382;&#23601;&#33258;&#21160;&#36339;&#36716;&#39029;&#38754;  
 if(system.win||system.mac||system.xll){  
 }else{  
-window.location.href="xiouwap.html";  
+window.location.href="wap.html";  
 }  
 
 </script> 
@@ -239,7 +242,9 @@ if(GetQueryString("f")==9){
 if(GetQueryString("f")==10){
 	document.write("<body onload='conj()'>");
 }
-
+if(GetQueryString("f")==11){
+	document.write("<body onload='conk()'>");
+}
 
 </script>
  <div class="header"><p>冬参佛法</p></div>
@@ -256,9 +261,10 @@ if(GetQueryString("f")==10){
          <li id="menu5"><a href="xiouzheng.html?nav=62000&f=4&v=80010">转世关怀</li>
          <li id="menu6"><a href="xiouzheng.html?nav=62000&f=5">修证语录</li>
 	     <li id="menu7"><a href="xiouzheng.html?nav=62000&f=6&v=80012">无量寿经解</li>
-       <li id="menu8"><a href="xiouzheng.html?nav=62000&f=7&v=80020">正念方法</li>
+         <li id="menu8"><a href="xiouzheng.html?nav=62000&f=7&v=80020">正念方法</li>
 		<li id="menu9"><a href="xiouzheng.html?nav=62000&f=9&v=80017">佛咒</li>
 		<li id="menu10"><a href="xiouzheng.html?nav=62000&f=10&v=80018">佛咒注音</li>
+		<li id="menu11"><a href="xiouzheng.html?nav=62000&f=11&v=8005">佛咒讲解</li>
 			 
     </ul>
 	
@@ -414,7 +420,7 @@ goPage(1,150,7);
 				<ul id="idData_8">
 					        
 				<center><script type="text/javascript" src="./xiouzheng/zhengnian.js"></script></center>     
-                
+                   
 
   
 				</ul>
@@ -459,6 +465,24 @@ goPage(1,150,9);
 <center><div class="pages" id="barcon_10"></div></center>
 <script> 
 goPage(1,150,10); 
+</script> 
+</div>
+</div>
+<div id="con_menu_11" style="display:none">
+<div class="shipin">
+<div class="list_sp">
+				<ul id="idData_11">
+					        
+				<center><script type="text/javascript" src="./xiouzheng/fozhoujie.js"></script></center>     
+                   
+
+  
+				</ul>
+			</div>
+<script src="ZLpages.js"></script>     	
+<center><div class="pages" id="barcon_11"></div></center>
+<script> 
+goPage(1,150,11); 
 </script> 
 </div>
 </div>
