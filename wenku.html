@@ -1,34 +1,41 @@
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
-<title>冬参佛法-&#31227;&#21160;&#29256;</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="applicable-device" content="pc">
+<meta name="keywords" content="佛法,冬参佛法,视频讲解 东升" />
+<meta name="description" content="冬参佛法--是一个佛学网站 主要呈现视频 佛学经文 供大家学习" />
+<title>&#19996;&#21319;&#30340;&#20315;&#27861;-主页</title>
 <link href="title.ico" rel="shortcut icon"/>
 <style>
- .shipin ul{list-style:none;width:100%;overflow:hidden;border:1px solid #FFF3EE;margin-bottom:10px;}
- 
- .shipin ul li{width:100%;} 
- .shipin ul li a{text-decoration:none;display:block;}
 *{margin:0;padding:0;}
-
 .header{
     height:50px;
-    width:100%;
+    width:960px;
 	margin:0 auto;
      background:#ECF5FF;
      margin-bottom:10px;
 	 opacity:0.9;
+	 border:1px solid #ECF5FF;
  }
+ 
+ .shipin ul{list-style:none;width:100%;overflow:hidden;border:1px solid #FFF3EE;margin-bottom:10px;}
+ 
+ .shipin ul li{width:50%;float:left;font-family:微软雅黑;font-size:20px;} 
+ .shipin ul li a{text-decoration:none;display:block;}
+ 
+ 
 p {
-    font-family:"&#26999;&#20307;";
+    font-family:"yellow";
     color:#C4E1FF;
-	font-size:50px;
-	text-align:center;
+	font-size:20px;
+	text-align:left;
+padding:20px 5px 15px 20px;
     -webkit-transition: all 2s ease;
             transition: all 2s ease;
 }
 p:hover {
-	font-size:60px;
+	font-size:30px;
     color: red;
   opacity:0.3;
 }
@@ -36,23 +43,25 @@ p:hover {
 	height:60px;
 	
 }
+.u{
+font-family:&#26999;&#20307;;
+padding:20px 5px 15px 20px;
+}
 
-
- #nav{
-     width:100%;
+ .nav{
+     width:960px;
      margin:0 auto;
      margin-bottom:10px;
 	 opacity:0.9;
+	 border:1px solid #C4E1FF;
  }
- 
+ .nav ul{list-style:none;margin:0px;}
  #main{
-     width:100%;
+     width:960px;
      min-height:100%;
      _height:100%;
      margin:0 auto;
-   overflow:auto;
-     background:#ECF5FF;
-    
+     overflow:hidden;
 	 opacity:0.9;
   }
  
@@ -69,60 +78,61 @@ p:hover {
      background:#C4E1FF;
      overflow:hidden;
   }
-  .f{ font-family:"&#26999;&#20307;";
-   list-style:none;
-   text-align:center;
-   font-size:25px;}
-  ul{list-style:none;}
+  ul{list-style:none;margin-bottom:10px;}
   ul li a{text-decoration:none;display:block;}
+ #main .left{
+     width:960px;
+     min-height:100%;
+     _height:100%;
+	 background:#ECF5FF;
+    float:left;
+   margin-bottom:10px;
+	opacity:0.9;
+	border:1px solid #C4E1FF;
+ }
 
-#footer{
-     width:100%;
+ #footer{
+     width:960px;
      height:50px;
      background:#C4E1FF;
      margin:0 auto;
      margin-top:10px;
 	 opacity:0.9;
+	 border:1px solid #C4E1FF;
   }
-  #nav ul{
+  .nav ul{
       list-style:none;
      background:#C4E1FF;
      overflow:hidden;
   }
- #nav li{
+ .nav li{
      float:left;
-	 width:30%;
+	 
  }
- #nav li a{
+ .nav li a{
      display:block;
       color:black;
-     
+     width:80px;
     font-family:&#40657;&#20307;;
 	line-height:30px;
      text-decoration:none;
      text-align:center;
 	 opacity:0.8;
   }
- #nav .home{
-     width:100%;
+ .nav .home{
+     width:128px;
  }
- #nav li a:hover{
+ .nav li a:hover{
 	 color:black;
       background:yellow;
 	opacity:0.8;
  }
- .u{
-font-family:&#26999;&#20307;;
-padding:20px 5px 15px 20px;
-}
-
- .ziti{   font-family:"&#26999;&#20307;";
-   font-size:25px;}
   a:hover{
-     color:black;
-      font-family:"&#26999;&#20307;";
+    font-family:"&#26999;&#20307;";
    font-size:30px;
+background:yellow;
  }
+ #my{overflow:scroll;overflow-y:hidden}
  </style>
  <script> 
 <!-- 
@@ -165,13 +175,30 @@ document.getElementById('con_menu_1').style.display='block';
 function coni(){
 document.getElementById('con_menu_9').style.display='block';
 }
-
-
+function conj(){
+document.getElementById('con_menu_10').style.display='block';
+}
+ //&#24179;&#21488;&#12289;&#35774;&#22791;&#21644;&#25805;&#20316;&#31995;&#32479;  
+var system ={  
+win : false,  
+mac : false,  
+xll : false  
+};  
+//&#26816;&#27979;&#24179;&#21488;  
+var p = navigator.platform;  
+system.win = p.indexOf("Win") == 0;  
+system.mac = p.indexOf("Mac") == 0;  
+system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);  
+//&#36339;&#36716;&#35821;&#21477;&#65292;&#22914;&#26524;&#26159;&#25163;&#26426;&#35775;&#38382;&#23601;&#33258;&#21160;&#36339;&#36716;&#39029;&#38754;  
+if(system.win||system.mac||system.xll){  
+}else{  
+window.location.href="wap.html";  
+}  
 
 </script> 
- </head>
+</head>
  <body>
-<script>
+ <script>
  function GetQueryString(name) {  
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
     var r = window.location.search.substr(1).match(reg);  //获取url中"?"符后的字符串并正则匹配
@@ -183,7 +210,7 @@ document.getElementById('con_menu_9').style.display='block';
     return context == null || context == "" || context == "undefined" ? "" : context;  
 }
 if(GetQueryString("f")==1){
-	document.write("<body onload='cona()'>");
+	document.write("<body onload='cona()'>");//2
 }
 if(GetQueryString("f")==2){
 	document.write("<body onload='conb()'>");
@@ -204,39 +231,57 @@ if(GetQueryString("f")==7){
 	document.write("<body onload='cong()'>");
 }
 if(GetQueryString("f")==8){
-	document.write("<body onload='conh()'>");
+	document.write("<body onload='conh()'>");//1
 }
 if(GetQueryString("f")==9){
 	document.write("<body onload='coni()'>");
 }
+if(GetQueryString("f")==10){
+	document.write("<body onload='conj()'>");
+}
+
+var requset =new XMLHttpRequest();
+        //請求目標地址
+         
+        //.........
+         
+        //判斷
+        if(requset.status == 404){
+           window.location.href="baidu.com";
+        }
 </script>
  <div class="header"><p>冬参佛法</p></div>
- <div id="nav">
+   <div class="nav">
+<script src='../nav.js'></script>
+ </div>
+ <div class="nav">
 <ul>
-        
-         <li id="menu1"><a href="wap.html?nav=62000&f=8">礼仪</a></li>
-         <li id="menu2"><a href="wap.html?nav=62000&f=1">念佛</li>
-         <li id="menu3"><a href="wap.html?nav=62000&f=2&v=80006">佛门常识</li>
-         <li id="menu4"><a href="wap.html?nav=62000&f=3&v=80002">生活常识</li>
-         <li id="menu5"><a href="wap.html?nav=62000&f=4&v=80009">素食菜谱</li>
-         <li id="menu6"><a href="wap.html?nav=62000&f=5&v=80007">创造人生</li>
-	     <li id="menu7"><a href="wap.html?nav=62000&f=6&v=80005">人生指南</li>
-         <li id="menu8"><a href="wap.html?nav=62000&f=7&v=20000">文库</li>
-		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">文库</li>
-		<li id="menu10"><a href="wap.html?nav=62000&f=10&v=20066">文库</li>
-			 
+         
+	 <li id="menu1"><a href="wenku.html?nav=63000&f=8&v=51000">佛学基础</li>
+	 <li id="menu8"><a href="wenku.html?nav=63000&f=7&v=52000">佛学基础2</li> 
+         <li id="menu2"><a href="wenku.html?nav=63000&f=1&v=30002">百喻百业经</li>
+         <li id="menu3"><a href="wenku.html?nav=63000&f=2&v=30000">文库</a></li>
+         <li id="menu4"><a href="wenku.html?nav=63000&f=3&v=30001">文库2</li>
+        <li id="menu6"><a href="wenku.html?nav=63000&f=5&v=30100">文库3</li>
+		 <li id="menu7"><a href="wenku.html?nav=63000&f=6&v=30200">文库4</li>
+		 <li id="menu10"><a href="wenku.html?nav=63000&f=10&v=30300">文库5</li>
+         <li id="menu5"><a href="wenku.html?nav=63000&f=4&v=30011">辞典</li>
+         
+		 
+		 <li id="menu9"><a href="wenku.html?nav=63000&f=9&v=80100">佛门圣地</li>
+         	 
     </ul>
 	
  </div>
  <div id="main">
   <div class="left">
   <div class="g"><li></li></div>
-  <div id="con_menu_1" style="display:none">
+  <div id="con_menu_1" style="display:block">
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_1">
 					        
-				 <center><script type="text/javascript" src="./xuefo/liyi.js"></script></center>     
+				 <center><script type="text/javascript" src="./wenku/rumen.js"></script></center>     
                  	       
 
   
@@ -254,9 +299,10 @@ goPage(1,150,1);
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_2">
-				 <center><script type="text/javascript" src="./xuefo/nianfo.js"></script></center>     
+				 <center><script type="text/javascript" src="./wenku/baiyu.js"></script></center>     
                                  
-				 
+				  
+
   
 				</ul>
 			</div>
@@ -275,7 +321,7 @@ goPage(1,150,2);
 <div class="list_sp">
 				<ul id="idData_3">
 					        
-				<center><script type="text/javascript" src="./xuefo/changshi.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/wenku.js"></script></center>     
                    
 
   
@@ -296,7 +342,7 @@ goPage(1,150,3);
 <div class="list_sp">
 				<ul id="idData_4">
 					        
-				<center><script type="text/javascript" src="./xuefo/shenghuo.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/wenku2.js"></script></center>     
                    
 
   
@@ -317,7 +363,7 @@ goPage(1,150,4);
 <div class="list_sp">
 				<ul id="idData_5">
 					        
-				<center><script type="text/javascript" src="./xuefo/sushi.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/cidian.js"></script></center>     
                    
 
   
@@ -336,7 +382,7 @@ goPage(1,150,5);
 <div class="list_sp">
 				<ul id="idData_6">
 					        
-				<center><script type="text/javascript" src="./xuefo/gaizao.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/wenku3.js"></script></center>     
                    
 
   
@@ -358,7 +404,7 @@ goPage(1,150,6);
 <div class="list_sp">
 				<ul id="idData_7">
 					        
-				<center><script type="text/javascript" src="./xuefo/zhinan.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/wenku4.js"></script></center>     
                    
 
   
@@ -378,7 +424,7 @@ goPage(1,150,7);
 <div class="list_sp">
 				<ul id="idData_8">
 					        
-				<center><script type="text/javascript" src="./xuefo/../../5/rumen3.js"></script></center>     
+				<center><script type="text/javascript" src="../5/rumen3.js"></script></center>     
                    
 
   
@@ -396,7 +442,7 @@ goPage(1,150,8);
 <div class="list_sp">
 				<ul id="idData_9">
 					        
-				<center><script type="text/javascript" src="./xuefo/lvyou.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/lvyou.js"></script></center>     
                    
 
   
@@ -414,7 +460,7 @@ goPage(1,150,9);
 <div class="list_sp">
 				<ul id="idData_10">
 					        
-				<center><script type="text/javascript" src="./xuefo/wenku5.js"></script></center>     
+				<center><script type="text/javascript" src="./wenku/wenku5.js"></script></center>     
                    
 
   
@@ -436,3 +482,4 @@ goPage(1,150,10);
 
  </body>
  </html>     
+
