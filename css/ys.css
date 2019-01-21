@@ -81,6 +81,18 @@ padding:20px 150px 5px 20px;
 	border:1px solid #C4E1FF;
  }
 
+ #main .left2{
+     width:750px;
+     min-height:100%;
+     _height:100%;
+	 background:#ECF5FF;
+    float:left;
+   margin-bottom:10px;
+	opacity:0.9;
+	border:1px solid #C4E1FF;
+ }
+
+
  #footer{
      width:960px;
      height:50px;
