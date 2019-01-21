@@ -91,7 +91,17 @@ padding:20px 150px 5px 20px;
 	opacity:0.9;
 	border:1px solid #C4E1FF;
  }
-
+#main .right{
+	 font-family:"&#26999;&#20307;";
+	 font-size:20px;
+     width:200px;
+    min-height:100%;
+     _height:100%;
+     background:#ECF5FF;
+     float:right;
+	 opacity:0.9;
+	 border:1px solid #C4E1FF;
+  }
 
  #footer{
      width:960px;
