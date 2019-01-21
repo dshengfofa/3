@@ -1,4 +1,4 @@
-﻿
+
 function setTab(name,cursel,n){ 
 for(i=1;i<=n;i++){ 
 var menu=document.getElementById(name+i); 
@@ -38,6 +38,13 @@ document.getElementById('con_menu_8').style.display='block';
 function coni(){
 document.getElementById('con_menu_9').style.display='block';
 }
+function conj(){
+document.getElementById('con_menu_10').style.display='block';
+}
+function conk(){
+document.getElementById('con_menu_11').style.display='block';
+}
+
 
 function GetQueryString(name) {  
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
@@ -75,4 +82,10 @@ if(GetQueryString("f")==8){
 }
 if(GetQueryString("f")==9){
 	document.write("<body onload='coni()'>");
+}
+if(GetQueryString("f")==10){
+	document.write("<body onload='conj()'>");
+}
+if(GetQueryString("f")==11){
+	document.write("<body onload='conk()'>");
 }
