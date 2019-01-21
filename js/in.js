@@ -39,7 +39,10 @@ document.getElementById('con_menu_9').style.display='block';
 function conj(){
 document.getElementById('con_menu_10').style.display='block';
 }
- 
+function conk(){
+document.getElementById('con_menu_11').style.display='block';
+}
+  
 
 
 
@@ -83,4 +86,7 @@ if(GetQueryString("f")==9){
 }
 if(GetQueryString("f")==10){
 	document.write("<body onload='conj()'>");
+}
+if(GetQueryString("f")==11){
+	document.write("<body onload='conk()'>");
 }
