@@ -7,272 +7,52 @@
 <meta name="description" content="冬参佛法--是一个佛学网站 主要呈现视频 佛学经文 供大家学习" />
 <title>冬参佛法-主页</title>
 <link href="title.ico" rel="shortcut icon"/>
-<style>
-*{margin:0;padding:0;}
-.header{
-    height:50px;
-    width:960px;
-	margin:0 auto;
-     background:#ECF5FF;
-     margin-bottom:10px;
-	 opacity:0.9;
-	 border:1px solid #ECF5FF;
- }
- 
- .shipin ul{list-style:none;width:100%;overflow:hidden;border:1px solid #FFF3EE;margin-bottom:10px;}
- 
- .shipin ul li{width:100%;font-family:微软雅黑;font-size:30px;} 
- .shipin ul li a{text-decoration:none;display:block;}
- 
- 
-p {
-    font-family:"yellow";
-    color:#C4E1FF;
-	font-size:20px;
-	text-align:left;
-padding:20px 5px 15px 20px;
-    -webkit-transition: all 2s ease;
-            transition: all 2s ease;
-}
-p:hover {
-	font-size:30px;
-    color: red;
-  opacity:0.3;
-}
-.header:hover{
-	height:60px;
-	
-}
-.u{
-font-family:&#26999;&#20307;;
-padding:20px 5px 15px 20px;
-}
-
-.nav{
-     width:960px;
-     margin:0 auto;
-     margin-bottom:10px;
-	 opacity:0.9;
-	 border:1px solid #C4E1FF;
- }
- .nav ul{list-style:none;margin:0px;}
- #main{
-     width:960px;
-     min-height:100%;
-     _height:100%;
-     margin:0 auto;
-     overflow:hidden;
-	 opacity:0.9;
-  }
- #main .right{
-	 font-family:"&#26999;&#20307;";
-	 font-size:20px;
-     width:200px;
-    min-height:100%;
-     _height:100%;
-     background:#ECF5FF;
-     float:right;
-	 opacity:0.9;
-	 border:1px solid #C4E1FF;
-  }
-.h{
-	line-height:30px;
-      list-style:none;
-     background:#C4E1FF;
-     overflow:hidden;
-	 
-  }
-  .g{
-	height:30px;
-      list-style:none;
-     background:#C4E1FF;
-     overflow:hidden;
-  }
-  ul{list-style:none;margin-bottom:10px;}
-  ul li a{text-decoration:none;display:block;}
- #main .left{
-     width:750px;
-     min-height:100%;
-     _height:100%;
-	 background:#ECF5FF;
-    float:left;
-   margin-bottom:10px;
-	opacity:0.9;
-	border:1px solid #C4E1FF;
- }
-
- #footer{
-     width:960px;
-     height:50px;
-     background:#C4E1FF;
-     margin:0 auto;
-     margin-top:10px;
-	 opacity:0.9;
-	 border:1px solid #C4E1FF;
-  }
-  .nav ul{
-      list-style:none;
-     background:#C4E1FF;
-     overflow:hidden;
-  }
- .nav li{
-     float:left;
-	 
- }
- .nav li a{
-     display:block;
-      color:black;
-     width:80px;
-    font-family:&#40657;&#20307;;
-	line-height:30px;
-     text-decoration:none;
-     text-align:center;
-	 opacity:0.8;
-  }
- .nav .home{
-     width:128px;
- }
- .nav li a:hover{
-	 color:black;
-      background:yellow;
-	opacity:0.8;
- }
-  a:hover{
-    font-family:"&#26999;&#20307;";
-   font-size:30px;
-background:yellow;
- }
- #my{overflow:scroll;overflow-y:hidden}
- </style>
- <script> 
-<!-- 
-function setTab(name,cursel,n){ 
-for(i=1;i<=n;i++){ 
-var menu=document.getElementById(name+i); 
-var con=document.getElementById("con_"+name+"_"+i); 
-menu.className=i==cursel?" ":""; 
-con.style.display=i==cursel?"block":"none"; 
-
-
-} 
-}
- 
-//-->
-function cona(){
-document.getElementById('con_menu_2').style.display='block';
-}
-function conb(){
-document.getElementById('con_menu_3').style.display='block';
-}
-function conc(){
-document.getElementById('con_menu_4').style.display='block';
-}
-function cond(){
-document.getElementById('con_menu_5').style.display='block';
-}
-function cone(){
-document.getElementById('con_menu_6').style.display='block';
-}
-function conf(){
-document.getElementById('con_menu_7').style.display='block';
-}
-function cong(){
-document.getElementById('con_menu_8').style.display='block';
-}
-function conh(){
-document.getElementById('con_menu_1').style.display='block';
-}
-function coni(){
-document.getElementById('con_menu_9').style.display='block';
-}
-function conj(){
-document.getElementById('con_menu_10').style.display='block';
-} 
- //&#24179;&#21488;&#12289;&#35774;&#22791;&#21644;&#25805;&#20316;&#31995;&#32479;  
+<link href='./css/ys.css' rel='stylesheet' type='text/css'>
+</head>
+ <body>
+ <script type='text/javascript' src='./js/in.js'>
+</script>
+ <div class='header'><p>冬参佛法</p></div>
+   <div class='nav'>
+<script src='../nav.js'></script>
+<script>
 var system ={  
 win : false,  
 mac : false,  
 xll : false  
 };  
-//&#26816;&#27979;&#24179;&#21488;  
+
 var p = navigator.platform;  
-system.win = p.indexOf("Win") == 0;  
-system.mac = p.indexOf("Mac") == 0;  
-system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);  
-//&#36339;&#36716;&#35821;&#21477;&#65292;&#22914;&#26524;&#26159;&#25163;&#26426;&#35775;&#38382;&#23601;&#33258;&#21160;&#36339;&#36716;&#39029;&#38754;  
+system.win = p.indexOf('Win') == 0;  
+system.mac = p.indexOf('Mac') == 0;  
+system.x11 = (p == 'X11') || (p.indexOf('Linux') == 0);  
+
 if(system.win||system.mac||system.xll){  
 }else{  
-window.location.href="yuwap.html?f=8&v=20001";  
+window.location.href='yuwap.html';  
 }  
 
-</script> 
-</head>
- <body>
- <script>
- function GetQueryString(name) {  
-    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
-    var r = window.location.search.substr(1).match(reg);  //获取url中"?"符后的字符串并正则匹配
-    var context = "";  
-    if (r != null)  
-         context = r[2];  
-    reg = null;  
-    r = null;  
-    return context == null || context == "" || context == "undefined" ? "" : context;  
-}
-if(GetQueryString("f")==1){
-	document.write("<body onload='cona()'>");//2
-}
-if(GetQueryString("f")==2){
-	document.write("<body onload='conb()'>");
-}
-if(GetQueryString("f")==3){
-	document.write("<body onload='conc()'>");
-}
-if(GetQueryString("f")==4){
-	document.write("<body onload='cond()'>");
-}
-if(GetQueryString("f")==5){
-	document.write("<body onload='cone()'>");
-}
-if(GetQueryString("f")==6){
-	document.write("<body onload='conf()'>");
-}
-if(GetQueryString("f")==7){
-	document.write("<body onload='cong()'>");
-}
-if(GetQueryString("f")==8){
-	document.write("<body onload='conh()'>");//1
-}
-if(GetQueryString("f")==9){
-	document.write("<body onload='coni()'>");
-}
-if(GetQueryString("f")==10){
-	document.write("<body onload='conj()'>");
-} 
 </script>
- <div class="header"><p>冬参佛法</p></div>
- <div class="nav">
-<script src='../nav.js'></script>
-</div>
+ </div>
  <div class="nav">
 <ul>
         
-         <li id="menu1"><a href="yulu.html?nav=63000&f=8&v=20001">星云语录</a></li>
-         <li id="menu2"><a href="yulu.html?nav=63000&f=1&v=20003">净空语录</li>
-         <li id="menu3"><a href="yulu.html?nav=63000&f=2&v=20020">梦参语录</li>
-         <li id="menu4"><a href="yulu.html?nav=63000&f=3&v=20200">虚云语录</li>
-         <li id="menu5"><a href="yulu.html?nav=63000&f=4&v=20090">妙莲语录</li>
-         <li id="menu6"><a href="yulu.html?nav=63000&f=5&v=20070">昌臻语录</li>
-	 <li id="menu7"><a href="yulu.html?nav=63000&f=6&v=20099">本焕语录</li>
+         <li id="menu1"><a href="yulu.html?nav=63000&f=1&v=20001">星云语录</a></li>
+         <li id="menu2"><a href="yulu.html?nav=63000&f=2&v=20003">净空语录</li>
+         <li id="menu3"><a href="yulu.html?nav=63000&f=3&v=20020">梦参语录</li>
+         <li id="menu4"><a href="yulu.html?nav=63000&f=4&v=20200">虚云语录</li>
+         <li id="menu5"><a href="yulu.html?nav=63000&f=5&v=20090">妙莲语录</li>
+         <li id="menu6"><a href="yulu.html?nav=63000&f=6&v=20070">昌臻语录</li>
+	 <li id="menu7"><a href="yulu.html?nav=63000&f=7&v=20099">本焕语录</li>
          <li id="menu10"><a href="yulu.html?nav=63000&f=10&v=20066">其它语录</li>
-         <li id="menu8"><a href="yulu.html?nav=63000&f=7&v=20000">善文</li>
+         <li id="menu8"><a href="yulu.html?nav=63000&f=8&v=20000">善文</li>
 		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">经义</li>
 		<li><a href="http://dongshenfofa.top/2">礼佛</li> 	 
     </ul>
 	
  </div>
  <div id="main">
-  <div class="left">
+  <div class="left2">
   <div class="g"><li></li></div>
   <div id="con_menu_1" style="display:block">
 <div class="shipin">
