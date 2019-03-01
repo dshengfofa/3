@@ -1,4 +1,4 @@
-﻿function setTab(name,cursel,n){ 
+function setTab(name,cursel,n){ 
 for(i=1;i<=n;i++){ 
 var menu=document.getElementById(name+i); 
 var con=document.getElementById("con_"+name+"_"+i); 
@@ -39,10 +39,11 @@ document.getElementById('con_menu_9').style.display='block';
 function conj(){
 document.getElementById('con_menu_10').style.display='block';
 }
+ 
 function conk(){
 document.getElementById('con_menu_11').style.display='block';
 }
-  
+ 
 
 
 
