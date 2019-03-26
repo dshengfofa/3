@@ -7,6 +7,8 @@
 .header{
     height:50px;
     width:100%;
+	background-image:url('../images/title.jpg');
+	background-size: 50% 50px;
 	margin:0 auto;
      background:#ECF5FF;
      margin-bottom:10px;
