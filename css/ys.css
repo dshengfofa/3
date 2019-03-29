@@ -124,8 +124,9 @@ padding:20px 150px 5px 20px;
 
  #footer{
      width:960px;
-     height:50px;
+     height:200px;
      background:#C4E1FF;
+     background-image:url('../images/footer.jpg'); 
      margin:0 auto;
      margin-top:10px;
 	 opacity:0.9;
