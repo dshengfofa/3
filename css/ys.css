@@ -14,7 +14,7 @@ background-image:url('../images/title.jpg');
  
  .shipin ul li{width:50%;float:left;font-family:微软雅黑;font-size:20px;overflow:hidden;} 
  .shipin ul li a{text-decoration:none;display:block;}
- 
+ .left3 ul li{float:left;width:165px;margin:10px 9px 12px 12px;display:inline;}
  
 p {
     font-family:"yellow";
@@ -94,6 +94,16 @@ padding:20px 150px 5px 20px;
 	 border:1px solid #C4E1FF;
   }
  #main .left2{
+     width:750px;
+     min-height:100%;
+     _height:100%;
+	 background:#ECF5FF;
+    float:left;
+   margin-bottom:10px;
+	opacity:0.9;
+	border:1px solid #C4E1FF;
+ }
+ #main .left3{
      width:750px;
      min-height:100%;
      _height:100%;
