@@ -23,8 +23,8 @@ document.write("</title>");
  </script>
 </head>
  <body>
- <div id="header"><div class="j">冬参佛法</div></div>
- <div id="nav">
+ <div class="header"></div>
+ <div class="nav">
       <ul>
 	     <li><a href="../../index.html">首页</a></li>
          <li><a href="jiangzuo.html">&#35270;&#39057;1</a></li>
@@ -67,7 +67,7 @@ document.write("</title>");
     system.mac = p.indexOf("Mac") == 0;  
     system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
     if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
-        document.write("<link href='./css/win.css' rel='stylesheet' type='text/css'>");
+        document.write("<link href='../css/ys.css' rel='stylesheet' type='text/css'>");
 	    document.write("<link href='./style.css' rel='stylesheet' type='text/css'>");
 		document.write("<iframe src='./images/bofang.jpg' name='donghua' quality='high' width='715' height='450' align='middle' allowScriptAccess='always' allowFullScreen='true' mode='transparent' type='application/x-shockwave-flash' isAutoPlay=true></iframe>");
     }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
