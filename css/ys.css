@@ -14,8 +14,16 @@ background-image:url('../images/title.jpg');
  
  .shipin ul li{width:50%;float:left;font-family:微软雅黑;font-size:20px;overflow:hidden;} 
  .shipin ul li a{text-decoration:none;display:block;}
- .left3 ul li{float:left;width:165px;margin:10px 9px 12px 12px;display:inline;}
- 
+.left3 ul{ overflow:hidden;zoom:1; padding-top:20px;}
+.left3 ul li{float:left;width:165px;margin:10px 9px 12px 12px;}
+.left3 ul li span{width:144px;height:24px;line-height:24px;text-align:center;font-size:12px;display:block;overflow:hidden;}
+.left3 ul li span a{color:#353A36;}
+ .list_sp { width:100%; margin-bottom:10px; overflow:hidden;}
+.right a:hover{
+    font-family:"&#26999;&#20307;";
+   font-size:30px;
+background:yellow;
+ }
 p {
     font-family:"yellow";
     color:#C4E1FF;
@@ -150,11 +158,7 @@ padding:20px 150px 5px 20px;
       background:yellow;
 	opacity:0.8;
  }
-  a:hover{
-    font-family:"&#26999;&#20307;";
-   font-size:30px;
-background:yellow;
- }
+
  #my{overflow:scroll;overflow-y:hidden}
 /////////////////////////////////////////////
 #divcss5 h1, #divcss5 h2, #divcss5 p {margin:0 10px;
