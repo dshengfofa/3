@@ -1,1 +1,1 @@
-﻿document.write("<div id='footer'><img style='width:100%;height:200px;' src='./images/footer.jpg'></div>");
+﻿document.write("<div id='footer'><img style='width:100%;height:200px;' src='./images/footerwap.jpg'></div>");
