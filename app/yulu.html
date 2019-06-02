@@ -1,37 +1,58 @@
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
-<title>东升佛法-&#31227;&#21160;&#29256;</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="applicable-device" content="pc">
+<meta name="keywords" content="佛法,冬参佛法,视频讲解 东升" />
+<meta name="description" content="冬参佛法--是一个佛学网站 主要呈现视频 佛学经文 供大家学习" />
+<title>冬参佛法-主页</title>
 <link href="title.ico" rel="shortcut icon"/>
-<link href='./css/wapys.css' rel='stylesheet' type='text/css'>
-
-
- </head>
+<link href='./css/ys.css' rel='stylesheet' type='text/css'>
+</head>
  <body>
-  <script type='text/javascript' src='./js/wapin.js'></script>
-<script type='text/javascript' src='./js/header.js'></script>
- 
- <div id="nav">
+ <script type='text/javascript' src='./js/in.js'>
+</script>
+ <div class='header'><p></p></div>
+   <div class='nav'>
+<script src='../nav.js'></script>
+<script>
+var system ={  
+win : false,  
+mac : false,  
+xll : false  
+};  
+
+var p = navigator.platform;  
+system.win = p.indexOf('Win') == 0;  
+system.mac = p.indexOf('Mac') == 0;  
+system.x11 = (p == 'X11') || (p.indexOf('Linux') == 0);  
+
+if(system.win||system.mac||system.xll){  
+}else{  
+window.location.href='yuwap.html';  
+}  
+
+</script>
+ </div>
+ <div class="nav">
 <ul>
-           <li><a href="./indexwap.html">首页</li>
-         <li id="menu1"><a href="yuwap.html?f=1&v=20001">星云语录</a></li>
-         <li id="menu2"><a href="yuwap.html?f=2&v=20003">净空语录</li>
-         <li id="menu3"><a href="yuwap.html?f=3&v=20020">梦参语录</li>
-         <li id="menu4"><a href="yuwap.html?f=4&v=20200">虚云语录</li>
-         <li id="menu5"><a href="yuwap.html?f=5&v=20090">妙莲语录</li>
-         <li id="menu6"><a href="yuwap.html?f=6&v=20070">昌臻语录</li>
-	 <li id="menu8"><a href="yuwap.html?f=8&v=20099">本焕语录</li>
-	 <li id="menu7"><a href="yuwap.html?f=7&v=20000">善文</li>
-	 
-        <li id="menu10" onclick="setTab('menu',10,10)"><a href="#">经义</li>
-	<li id="menu9" onclick="setTab('menu',9,10)"><a href="#">经阁</li>
-	<li><a href="http://dongshenfofa.top/2">礼佛</li>
+        
+         <li id="menu1"><a href="yulu.html?nav=63000&f=1&v=20001">星云语录</a></li>
+         <li id="menu2"><a href="yulu.html?nav=63000&f=2&v=20003">净空语录</li>
+         <li id="menu3"><a href="yulu.html?nav=63000&f=3&v=20020">梦参语录</li>
+         <li id="menu4"><a href="yulu.html?nav=63000&f=4&v=20200">虚云语录</li>
+         <li id="menu5"><a href="yulu.html?nav=63000&f=5&v=20090">妙莲语录</li>
+         <li id="menu6"><a href="yulu.html?nav=63000&f=6&v=20070">昌臻语录</li>
+	 <li id="menu7"><a href="yulu.html?nav=63000&f=7&v=20099">本焕语录</li>
+         <li id="menu10"><a href="yulu.html?nav=63000&f=10&v=20066">其它语录</li>
+         <li id="menu8"><a href="yulu.html?nav=63000&f=8&v=20000">善文</li>
+		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">经义</li>
+		<li><a href="http://dongshenfofa.top/2">礼佛</li> 	 
     </ul>
 	
  </div>
  <div id="main">
-  <div class="left">
+  <div class="left2">
   <div class="g"><li></li></div>
   <div id="con_menu_1" style="display:block">
 <div class="shipin">
@@ -68,6 +89,9 @@ goPage(1,50,1);
 <script> 
 goPage(1,50,2); 
 </script> 
+
+
+
 </div>
 </div>
 <div id="con_menu_3" style="display:none">
@@ -148,16 +172,18 @@ goPage(1,50,5);
 <script> 
 goPage(1,50,6); 
 </script> 
-</div>
+
+
 
 </div>
 
+</div>
 <div id="con_menu_7" style="display:none">
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_7">
 					        
-				<center><script type="text/javascript" src="./yulu/shan.js"></script></center>     
+				<center><script type="text/javascript" src="./yulu/benhuan.js"></script></center>     
                    
 
   
@@ -166,16 +192,36 @@ goPage(1,50,6);
 <script src="ZLpages.js"></script>     	
 <center><div class="pages" id="barcon_7"></div></center>
 <script> 
-goPage(1,25,7); 
+goPage(1,50,7); 
+</script> 
+
+
+</div>
+</div>
+<div id="con_menu_10" style="display:none">
+<div class="shipin">
+<div class="list_sp">
+				<ul id="idData_10">
+					        
+				<center><script type="text/javascript" src="./yulu/qita.js"></script></center>     
+                   
+
+  
+				</ul>
+			</div>
+<script src="ZLpages.js"></script>     	
+<center><div class="pages" id="barcon_10"></div></center>
+<script> 
+goPage(1,50,10); 
 </script> 
 </div>
-</div>
+</div>  
 <div id="con_menu_8" style="display:none">
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_8">
 					        
-				<center><script type="text/javascript" src="./yulu/benhuan.js"></script></center>     
+				<center><script type="text/javascript" src="./yulu/shan.js"></script></center>     
                    
 
   
@@ -188,17 +234,23 @@ goPage(1,25,8);
 </script> 
 </div>
 </div>
-<div id="con_menu_10" style="display:none">
+<div id="con_menu_9" style="display:none">
 <div class="shipin">
 <ul>
 <li><a href='../foluen/文殊菩萨一百四十一愿.html' target='_blank'>文殊菩萨一百四十一愿</a></li>
 <li><a href='../foluen/十善戒.html' target='_blank'>十善戒</a></li>
 <li><a href='../foluen/过午不食，增加福报.html' target='_blank'>过午不食，增加福报</a></li>
+<li><a href='../2/wenku/%E6%96%87%E5%BA%93/%E9%87%8A%E8%BF%A6%E7%89%9F%E5%B0%BC%E4%BD%9B%E7%9A%84%E4%BA%94%E7%99%BE%E5%A4%A7%E6%84%BF.html' target='_blank'>释迦牟尼佛的五百大愿</a></li>
+
 </ul>
 </div>
-</div>  
-<div id="con_menu_9" style="display:none">
-<center>
+</div>
+  </div >
+   <div class="right">
+   <center>
+   <ul>
+<div class="i"><h4></h4></div>
+<div style="border:1px solid #C4E1FF;">
 <ul>
 <li><a href='../fofa2/涅槃部/涅槃部.html'>涅槃部</a></li>
 <li><a href='../fofa2/大集部/大集部.html'>大集部</a></li>
@@ -225,11 +277,18 @@ goPage(1,25,8);
 <li><a href='../fofa2/华严部/华严部.html'>华严部</a></li>
 <li><a href='../fofa2/宝积部/宝积部.html'>宝积部</a></li>
 </ul>
-</center>
 </div>
-  </div >
-   
- </div>
-<script type='text/javascript' src='./js/footer.js'></script>
+</ul>
+  </center> 
+      <div class="h" style="margin-top:30px;border:1px solid #C4E1FF">
+<script charset='uft-8' style='text/javascript' src='../search/search2.js'></script>
+
+</div>
+   </div>
+   </div>
+ 
+ <div id="footer">
+</div>
  </body>
- </html>
+ </html>     
+

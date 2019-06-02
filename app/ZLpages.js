@@ -99,11 +99,6 @@
 	}else{
 		tempStr += "<a class=\"a1\" href=\"#\" target=\"_self\">下一页</a></li>";	
 	}
-
-tempStr +="<span>转到<input id='pagesvalues' type='text'>页<input class='pages_go_btn' type='button' value='确定' "; 
-tempStr +="onclick='goPage('document.getElementById('pagesvalues').value','+psize+','+m+',''+Goto+'')'></span>";
-
-
 	document.getElementById("barcon_"+m).innerHTML = tempStr;
 
         //跳到页面指定位置(迁就已写的碎片)
@@ -114,9 +109,6 @@ tempStr +="onclick='goPage('document.getElementById('pagesvalues').value','+psiz
             });
         }
         
-
-
-
         /*按左右键翻页
         document.onkeydown=function(e){
           e=window.event||e;
@@ -133,10 +125,5 @@ tempStr +="onclick='goPage('document.getElementById('pagesvalues').value','+psiz
               break;
           }
         }*/
-
-
-
-
-
 
 }

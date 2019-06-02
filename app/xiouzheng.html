@@ -1,42 +1,66 @@
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0" />
-<title>东升佛法-&#31227;&#21160;&#29256;</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="applicable-device" content="pc">
+<meta name="keywords" content="佛法,冬参佛法,视频讲解 东升" />
+<meta name="description" content="冬参佛法--是一个佛学网站 主要呈现视频 佛学经文 供大家学习" />
+<title>&#19996;&#21319;&#30340;&#20315;&#27861;-主页</title>
 <link href="title.ico" rel="shortcut icon"/>
-<link href='./css/wapys.css' rel='stylesheet' type='text/css'>
-
-
- </head>
+<link href='./css/ys.css' rel='stylesheet' type='text/css'>
+</head>
  <body>
-  <script type='text/javascript' src='./js/wapin.js'></script>
- <script type='text/javascript' src='./js/header.js'></script>
+ <script type='text/javascript' src='./js/in.js'>
+</script>
+ <div class='header'><p></p></div>
+   <div class='nav'>
+<script src='../nav.js'></script>
+<script>
+var system ={  
+win : false,  
+mac : false,  
+xll : false  
+};  
 
-	 <div id="nav">
+var p = navigator.platform;  
+system.win = p.indexOf('Win') == 0;  
+system.mac = p.indexOf('Mac') == 0;  
+system.x11 = (p == 'X11') || (p.indexOf('Linux') == 0);  
+
+if(system.win||system.mac||system.xll){  
+}else{  
+window.location.href='xiouwap.html';  
+}  
+
+</script>
+ </div>
+ <div class="nav">
 <ul>
-    <li><a href="./indexwap.html">首页</li>    
-    <li id="menu1"><a href="jiaowap.html?nav=62000&f=1&v=80021">三十七道品</a></li>
-         <li id="menu2"><a href="jiaowap.html?nav=62000&f=2&v=80024">皈依方法</li>
-         <li id="menu3"><a href="jiaowap.html?nav=62000&f=3&v=80015">初级教本</li>
-         <li id="menu4"><a href="jiaowap.html?nav=62000&f=4&v=80016">中级教本</li>
-         <li id="menu5"><a href="jiaowap.html?nav=62000&f=5&v=80019">高级教本</li>
-         <li id="menu6"><a href="jiaowap.html?nav=62000&f=6&v=80023">佛学大纲</li>
-	     <li id="menu7"><a href="jiaowap.html?nav=62000&f=7&v=80022">南传佛学</li>
-         <li id="menu8"><a href="jiaowap.html?nav=62000&f=8&v=80025">极乐之惑</li>
-		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">文库</li>
-		<li id="menu10"><a href="jiaowap.html?nav=62000&f=10&v=20066">文库</li>
+        
+         <li id="menu1"><a href="xiouzheng.html?nav=62000&f=1">念佛法门</a></li>
+         <li id="menu2"><a href="xiouzheng.html?nav=62000&f=2&v=80011">安心法门</li>
+         <li id="menu3"><a href="xiouzheng.html?nav=62000&f=3">修行语录</li>
+         <li id="menu4"><a href="xiouzheng.html?nav=62000&f=4&v=80013">积德行善</li>
+         <li id="menu5"><a href="xiouzheng.html?nav=62000&f=5&v=80010">转世关怀</li>
+         <li id="menu6"><a href="xiouzheng.html?nav=62000&f=6">修证语录</li>
+	     <li id="menu7"><a href="xiouzheng.html?nav=62000&f=7&v=80012">无量寿经解</li>
+         <li id="menu8"><a href="xiouzheng.html?nav=62000&f=8&v=80020">正念方法</li>
+		<li id="menu9"><a href="xiouzheng.html?nav=62000&f=9&v=80017">佛咒</li>
+		<li id="menu10"><a href="xiouzheng.html?nav=62000&f=10&v=80018">佛咒注音</li>
+		<li id="menu11"><a href="xiouzheng.html?nav=62000&f=11&v=8005">佛咒讲解</li>
+			 
     </ul>
 	
  </div>
  <div id="main">
- <div class="left">
+  <div class="left">
   <div class="g"><li></li></div>
   <div id="con_menu_1" style="display:none">
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_1">
 					        
-				 <center><script type="text/javascript" src="./jiaoben/sanshiqi.js"></script></center>     
+				 <center><script type="text/javascript" src="./xiouzheng/nianfofamen.js"></script></center>     
                  	       
 
   
@@ -54,7 +78,7 @@ goPage(1,150,1);
 <div class="shipin">
 <div class="list_sp">
 				<ul id="idData_2">
-				 <center><script type="text/javascript" src="./jiaoben/guiyi.js"></script></center>     
+				 <center><script type="text/javascript" src="./xiouzheng/anxinfamen.js"></script></center>     
                                  
 				 
   
@@ -75,7 +99,7 @@ goPage(1,150,2);
 <div class="list_sp">
 				<ul id="idData_3">
 					        
-				<center><script type="text/javascript" src="./jiaoben/chuji.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/xiouxing.js"></script></center>     
                    
 
   
@@ -96,7 +120,7 @@ goPage(1,150,3);
 <div class="list_sp">
 				<ul id="idData_4">
 					        
-				<center><script type="text/javascript" src="./jiaoben/zhongji.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/xingshan.js"></script></center>     
                    
 
   
@@ -117,7 +141,7 @@ goPage(1,150,4);
 <div class="list_sp">
 				<ul id="idData_5">
 					        
-				<center><script type="text/javascript" src="./jiaoben/gaoji.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/zhuanshi.js"></script></center>     
                    
 
   
@@ -136,7 +160,7 @@ goPage(1,150,5);
 <div class="list_sp">
 				<ul id="idData_6">
 					        
-				<center><script type="text/javascript" src="./jiaoben/dagang.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/wenti.js"></script></center>     
                    
 
   
@@ -158,7 +182,7 @@ goPage(1,150,6);
 <div class="list_sp">
 				<ul id="idData_7">
 					        
-				<center><script type="text/javascript" src="./jiaoben/nanchuan.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/wuliangshou.js"></script></center>     
                    
 
   
@@ -178,7 +202,7 @@ goPage(1,150,7);
 <div class="list_sp">
 				<ul id="idData_8">
 					        
-				<center><script type="text/javascript" src="./jiaoben/jile.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/zhengnian.js"></script></center>     
                    
 
   
@@ -196,7 +220,7 @@ goPage(1,150,8);
 <div class="list_sp">
 				<ul id="idData_9">
 					        
-				<center><script type="text/javascript" src="lvyou.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/fozhou.js"></script></center>     
                    
 
   
@@ -214,7 +238,7 @@ goPage(1,150,9);
 <div class="list_sp">
 				<ul id="idData_10">
 					        
-				<center><script type="text/javascript" src="wenku5.js"></script></center>     
+				<center><script type="text/javascript" src="./xiouzheng/zhuyin.js"></script></center>     
                    
 
   
@@ -227,10 +251,30 @@ goPage(1,150,10);
 </script> 
 </div>
 </div>
+<div id="con_menu_11" style="display:none">
+<div class="shipin">
+<div class="list_sp">
+				<ul id="idData_11">
+					        
+				<center><script type="text/javascript" src="./xiouzheng/fozhoujie.js"></script></center>     
+                   
+
+  
+				</ul>
+			</div>
+<script src="ZLpages.js"></script>     	
+<center><div class="pages" id="barcon_11"></div></center>
+<script> 
+goPage(1,150,11); 
+</script> 
+</div>
+</div>
   </div >
    
    </div>
  
-<script type='text/javascript' src='./js/footer.js'></script>
-</body>
+ <div id="footer">
+</div>
+ </body>
  </html>     
+
