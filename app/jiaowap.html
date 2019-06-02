@@ -10,27 +10,53 @@
  </head>
  <body>
   <script type='text/javascript' src='./js/wapin.js'></script>
- <script type='text/javascript' src='./js/header.js'></script>
+   <script>
+(function() {
+	var baseFontSize=100;
+	var baseWidth=320;
+	var clientWidth=document.documentElement.clientWidth||window.innerWidth;
+	var innerWidth=Math.max(Math.min(clientWidth,480),320);
+	var rem=100;
+	if(innerWidth>362&&innerWidth<=375)
+	{rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.9)
+	}
+	if(innerWidth>375){
+	rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.84)
+	}
+	window.__baseREM=rem;document.querySelector("html").style.fontSize=rem+"px";
+	window.addEventListener("touchstart",function(){});
+}());
 
-	 <div id="nav">
-<ul>
-    <li><a href="./index.html">首页</li>    
+
+
+</script>
+ <script type='text/javascript' src='./js/header.js'></script>
+<link type="text/css" rel="stylesheet" href="./css/style.css" />
+
+ <div class="box02">
+                		
+		<div class="box02_1">
+	<ul>
+<li><a href="./index.html">首页</a></li>    
     <li id="menu1"><a href="jiaowap.html?nav=62000&f=1&v=80021">三十七道品</a></li>
-         <li id="menu2"><a href="jiaowap.html?nav=62000&f=2&v=80024">皈依方法</li>
-         <li id="menu3"><a href="jiaowap.html?nav=62000&f=3&v=80015">初级教本</li>
-         <li id="menu4"><a href="jiaowap.html?nav=62000&f=4&v=80016">中级教本</li>
-         <li id="menu5"><a href="jiaowap.html?nav=62000&f=5&v=80019">高级教本</li>
-         <li id="menu6"><a href="jiaowap.html?nav=62000&f=6&v=80023">佛学大纲</li>
-	     <li id="menu7"><a href="jiaowap.html?nav=62000&f=7&v=80022">南传佛学</li>
-         <li id="menu8"><a href="jiaowap.html?nav=62000&f=8&v=80025">极乐之惑</li>
-		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">文库</li>
-		<li id="menu10"><a href="jiaowap.html?nav=62000&f=10&v=20066">文库</li>
-    </ul>
-	
- </div>
+         <li id="menu2"><a href="jiaowap.html?nav=62000&f=2&v=80024">皈依方法</a></li>
+         <li id="menu3"><a href="jiaowap.html?nav=62000&f=3&v=80015">初级教本</a></li>
+         <li id="menu4"><a href="jiaowap.html?nav=62000&f=4&v=80016">中级教本</a></li>
+         <li id="menu5"><a href="jiaowap.html?nav=62000&f=5&v=80019">高级教本</a></li>
+         <li id="menu6"><a href="jiaowap.html?nav=62000&f=6&v=80023">佛学大纲</a></li>
+	     <li id="menu7"><a href="jiaowap.html?nav=62000&f=7&v=80022">南传佛学</a></li>
+         <li id="menu8"><a href="jiaowap.html?nav=62000&f=8&v=80025">极乐之惑</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>		
+</ul>
+		</div>
+	</div>
+	 
  <div id="main">
  <div class="left">
-  <div class="g"><li></li></div>
+
   <div id="con_menu_1" style="display:none">
 <div class="shipin">
 <div class="list_sp">
@@ -232,5 +258,6 @@ goPage(1,150,10);
    </div>
  
 <script type='text/javascript' src='./js/footer.js'></script>
+	<script charset='uft-8' style='text/javascript' src="./js/scroll2.js"></script>
 </body>
  </html>     

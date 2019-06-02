@@ -10,11 +10,34 @@
  </head>
  <body>
   <script type='text/javascript' src='./js/wapin.js'></script>
+  <script>
+(function() {
+	var baseFontSize=100;
+	var baseWidth=320;
+	var clientWidth=document.documentElement.clientWidth||window.innerWidth;
+	var innerWidth=Math.max(Math.min(clientWidth,480),320);
+	var rem=100;
+	if(innerWidth>362&&innerWidth<=375)
+	{rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.9)
+	}
+	if(innerWidth>375){
+	rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.84)
+	}
+	window.__baseREM=rem;document.querySelector("html").style.fontSize=rem+"px";
+	window.addEventListener("touchstart",function(){});
+}());
+
+
+
+</script>
 <script type='text/javascript' src='./js/header.js'></script>
- 
- <div id="nav">
-<ul>
-           <li><a href="./index.html">首页</li>
+<link type="text/css" rel="stylesheet" href="./css/style.css" />
+
+ <div class="box02">
+                		
+		<div class="box02_1">
+	<ul>
+    <li><a href="./index.html">首页</li>
          <li id="menu1"><a href="yuwap.html?f=1&v=20001">星云语录</a></li>
          <li id="menu2"><a href="yuwap.html?f=2&v=20003">净空语录</li>
          <li id="menu3"><a href="yuwap.html?f=3&v=20020">梦参语录</li>
@@ -27,12 +50,16 @@
         <li id="menu10" onclick="setTab('menu',10,10)"><a href="#">经义</li>
 	<li id="menu9" onclick="setTab('menu',9,10)"><a href="#">经阁</li>
 	<li><a href="http://dongshenfofa.top/2">礼佛</li>
-    </ul>
-	
- </div>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>		
+</ul>
+		</div>
+	</div>
  <div id="main">
   <div class="left">
-  <div class="g"><li></li></div>
+
   <div id="con_menu_1" style="display:block">
 <div class="shipin">
 <div class="list_sp">
@@ -231,5 +258,6 @@ goPage(1,25,8);
    
  </div>
 <script type='text/javascript' src='./js/footer.js'></script>
+	<script charset='uft-8' style='text/javascript' src="./js/scroll2.js"></script>
  </body>
  </html>

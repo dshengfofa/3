@@ -10,12 +10,34 @@
  </head>
  <body>
   <script type='text/javascript' src='./js/wapin.js'></script>
+  <script>
+(function() {
+	var baseFontSize=100;
+	var baseWidth=320;
+	var clientWidth=document.documentElement.clientWidth||window.innerWidth;
+	var innerWidth=Math.max(Math.min(clientWidth,480),320);
+	var rem=100;
+	if(innerWidth>362&&innerWidth<=375)
+	{rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.9)
+	}
+	if(innerWidth>375){
+	rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.84)
+	}
+	window.__baseREM=rem;document.querySelector("html").style.fontSize=rem+"px";
+	window.addEventListener("touchstart",function(){});
+}());
+
+
+
+</script>
  <script type='text/javascript' src='./js/header.js'></script>
- 
-	
- <div id="nav">
-<ul>
-         <li><a href="./index.html">首页</a></li>
+ <link type="text/css" rel="stylesheet" href="./css/style.css" />
+
+ <div class="box02">
+                		
+		<div class="box02_1">
+	<ul>
+     <li><a href="./index.html">首页</a></li>
          <li id="menu1"><a href="wap.html?nav=62000&f=1">礼仪</a></li>
          <li id="menu2"><a href="wap.html?nav=62000&f=2">念佛</li>
          <li id="menu3"><a href="wap.html?nav=62000&f=3&v=80006">佛门常识</li>
@@ -23,16 +45,18 @@
          <li id="menu5"><a href="wap.html?nav=62000&f=5&v=80009">素食菜谱</li>
          <li id="menu6"><a href="wap.html?nav=62000&f=6&v=80007">创造人生</li>
 	     <li id="menu7"><a href="wap.html?nav=62000&f=7&v=80005">人生指南</li>
-         <li id="menu8"><a href="wap.html?nav=62000&f=8&v=20000">文库</li>
-		<li id="menu9" onclick="setTab('menu',9,9)"><a href="#">文库</li>
-		<li id="menu10"><a href="wap.html?nav=62000&f=10&v=20066">文库</li>
-			 
-    </ul>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>		
+</ul>
+		</div>
+	</div>
 	
- </div>
+ 
  <div id="main">
   <div class="left">
-  <div class="g"><li></li></div>
+
   <div id="con_menu_1" style="display:none">
 <div class="shipin">
 <div class="list_sp">
@@ -233,7 +257,7 @@ goPage(1,150,10);
    
    </div>
 <script type='text/javascript' src='./js/footer.js'></script>
-
+	<script charset='uft-8' style='text/javascript' src="./js/scroll2.js"></script>
  </body>
  </html>     
  

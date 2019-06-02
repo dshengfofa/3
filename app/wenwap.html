@@ -10,11 +10,34 @@
  </head>
  <body>
   <script type='text/javascript' src='./js/wapin.js'></script>
+  <script>
+(function() {
+	var baseFontSize=100;
+	var baseWidth=320;
+	var clientWidth=document.documentElement.clientWidth||window.innerWidth;
+	var innerWidth=Math.max(Math.min(clientWidth,480),320);
+	var rem=100;
+	if(innerWidth>362&&innerWidth<=375)
+	{rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.9)
+	}
+	if(innerWidth>375){
+	rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.84)
+	}
+	window.__baseREM=rem;document.querySelector("html").style.fontSize=rem+"px";
+	window.addEventListener("touchstart",function(){});
+}());
+
+
+
+</script>
 	<script type='text/javascript' src='./js/header.js'></script>
-  
-<div id="nav">
-<ul>
-          <li><a href="./index.html">首页</li> 
+	<link type="text/css" rel="stylesheet" href="./css/style.css" />
+
+ <div class="box02">
+                		
+		<div class="box02_1">
+	<ul>
+     <li><a href="./index.html">首页</li> 
 		 <li id="menu8"><a href="wenwap.html?f=8&v=51000">佛经基础</li>
 	     <li id="menu9"><a href="wenwap.html?f=9&v=52000">佛经基础2</li> 
 		 <li id="menu3"><a href="wenwap.html?f=3&v=30002">百业百喻经</li>
@@ -25,13 +48,18 @@
 		 <li id="menu7"><a href="wenwap.html?f=7&v=30300">文库5</li>
 		 <li id="menu4"><a href="wenwap.html?f=4&v=30011">佛学辞典</li>
         <li id="menu10"><a href="wenwap.html?f=10&v=80100">佛门圣地</li>
-         
-    </ul>
-	
- </div>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>
+<li><a href="http://dongshenfofa.top" style='padding:0 .06rem;'>菜单</a></li>		
+</ul>
+		</div>
+	</div>
+  
+
  <div id="main">
   <div class="left">
-  <div class="g"><li></li></div>
+
   <div id="con_menu_1" style="display:block">
 <div class="shipin">
 <div class="list_sp">
@@ -234,6 +262,7 @@ goPage(1,150,10);
    
  </div>
 <script type='text/javascript' src='./js/footer.js'></script>
+	<script charset='uft-8' style='text/javascript' src="./js/scroll2.js"></script>
 
  </body>
  </html>
