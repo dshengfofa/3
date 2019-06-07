@@ -739,18 +739,19 @@ function mOvr(v) {
          festival = '';
       else
          festival = '<TABLE WIDTH=100% BORDER=0 CELLPADDING=2 CELLSPACING=0 BGCOLOR="#CCFFCC"><TR><TD>'+
-         '<FONT COLOR="#000000" STYLE="font-size:8pt;">'+cld[d].solarTerms + ' ' + cld[d].solarFestival + ' ' + cld[d].lunarFestival+'</FONT></TD>'+
+         '<center><FONT COLOR="#000000" STYLE="font-size:12pt;">'+cld[d].solarTerms + ' ' + cld[d].solarFestival + ' ' + cld[d].lunarFestival+'</FONT></center></TD>'+
          '</TR></TABLE>';
 
-      s= '<TABLE WIDTH="130" BORDER=0 CELLPADDING="2" CELLSPACING=0 BGCOLOR="#000066"><TR><TD>' +
-         '<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD ALIGN="right"><FONT COLOR="#ffffff" STYLE="font-size:9pt;">'+
+      s= '<TABLE WIDTH="100%" BORDER=0 CELLPADDING="2" CELLSPACING=0 BGCOLOR="#CCFFCC"><TR><TD>' +
+         '<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0><TR><TD ALIGN="right"><center><FONT COLOR="#000000" STYLE="font-size:12pt;">'+
          cld[d].sYear+' 年 '+cld[d].sMonth+' 月 '+cld[d].sDay+' 日<br>星期'+cld[d].week+'<br>'+
-         '<font color="violet">农历'+(cld[d].isLeap?'闰 ':' ')+cld[d].lMonth+' 月 '+cld[d].lDay+' 日</font><br>'+
-         '<font color="yellow">'+cld[d].cYear+'年 '+cld[d].cMonth+'月 '+cld[d].cDay + '日</font>'+
-         '</FONT></TD></TR></TABLE>'+ festival +'</TD></TR></TABLE>';
+         '<font color="#000000">农历'+(cld[d].isLeap?'闰 ':' ')+cld[d].lMonth+' 月 '+cld[d].lDay+' 日</font><br>'+
+         '<font color="#000000">'+cld[d].cYear+'年 '+cld[d].cMonth+'月 '+cld[d].cDay + '日</font>'+
+         '</FONT></TD></TR></center></TABLE>'+ festival +'</TD></TR></TABLE>';
 
       document.all["detail"].innerHTML = s;
-
+     document.all["det"].innerHTML = s;
+window.location ="#maodian";
    	if(snow == 0) {
         dStyle.left = x+offsetx-(width/2);
         dStyle.top = y+offsety;
