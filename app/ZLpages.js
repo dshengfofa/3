@@ -99,10 +99,10 @@
 	}else{
 		tempStr += "<a class=\"a1\" href=\"#\" target=\"_self\">下一页</a></li>";	
 	}
-
+/*
 tempStr +="<span>转到<input id='pagesvalues' type='text'>页<input class='pages_go_btn' type='button' value='确定' "; 
 tempStr +="onclick='goPage('document.getElementById('pagesvalues').value','+psize+','+m+',''+Goto+'')'></span>";
-
+*/
 
 	document.getElementById("barcon_"+m).innerHTML = tempStr;
 
