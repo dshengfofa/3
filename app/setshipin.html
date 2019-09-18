@@ -36,7 +36,7 @@ document.write("</title>");
     if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
         document.write("<div class='header'></div><div class='nav'>");
 	    }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
-       document.write("<div class='header'><img style='margin-left:35%;width:30%; height:50px;' src='./3/images/titlewap.jpg'></div><div id='nav'>");
+       document.write("<div class='header'><img style='margin-left:35%;width:30%; height:50px;' src='./images/titlewap.jpg'></div><div id='nav'>");
 	    }
 		</script>
  <div id="nav">
@@ -65,11 +65,11 @@ var system ={};
     system.mac = p.indexOf("Mac") == 0;  
     system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
     if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
-        document.write("<link href='./3/css/ys.css' rel='stylesheet' type='text/css'>");
+        document.write("<link href='./css/ys.css' rel='stylesheet' type='text/css'>");
 		document.write("<iframe  id='oframe'  src='' width=660 height=500 allowfullscreen=true></iframe>");
         	
     }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
-        document.write("<link href='./3/css/wapys.css' rel='stylesheet' type='text/css'>");
+        document.write("<link href='./css/wapys.css' rel='stylesheet' type='text/css'>");
 		document.write("<iframe  id='oframe'  src='' width=100% height=500 allowfullscreen=true></iframe>");
         
     }
