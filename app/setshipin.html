@@ -11,7 +11,7 @@ document.write("content='decodeURI(GetQueryString("title"))' />");
 <link href="title.ico" rel="shortcut icon"/>
 <script>
 document.write("<title>");
-document.write("冬参佛法-");
+document.write("东升佛法-");
 document.write(decodeURI(GetQueryString("title")));
 document.write("</title>");
   function GetQueryString(name) {  
@@ -24,26 +24,36 @@ document.write("</title>");
     r = null;  
     return context == null || context == "" || context == "undefined" ? "" : context;  
 }
-
  </script>
 </head>
  <body>
- <div id="header"><div class="j">冬参佛法</div></div>
+<script>
+	var system ={};  
+    var p = navigator.platform;       
+    system.win = p.indexOf("Win") == 0;  
+    system.mac = p.indexOf("Mac") == 0;  
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+    if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
+        document.write("<div class='header'></div><div class='nav'>");
+	    }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
+       document.write("<div class='header'><img style='margin-left:35%;width:30%; height:50px;' src='./3/images/titlewap.jpg'></div><div id='nav'>");
+	    }
+		</script>
  <div id="nav">
       <ul>
 	     <li><a href="index.html">首页</a></li>
          <li><a href="index.html">&#35270;&#39057;1</a></li>
-         <li><a href="index.html?f=1">&#35270;&#39057;2</a></li>
-         <li><a href="index.html?f=2">&#35270;&#39057;3</a></li>
-         <li><a href="index.html?f=3">&#35270;&#39057;4</a></li>
-         <li><a href="index.html?f=4">&#35270;&#39057;5</a></li>
-         <li><a href="index.html?f=5">&#35270;&#39057;6</a></li>
-		 <li><a href="index.html?f=6">&#35270;&#39057;7</a></li>
-		 <li><a href="index.html?f=7">&#35270;&#39057;8</a></li>
+         <li><a href="shipinwap.html?f=1">&#35270;&#39057;2</a></li>
+         <li><a href="shipinwap.html?f=2">&#35270;&#39057;3</a></li>
+         <li><a href="shipinwap.html?f=3">&#35270;&#39057;4</a></li>
+         <li><a href="shipinwap.html?f=4">&#35270;&#39057;5</a></li>
+         <li><a href="shipinwap.html?f=5">&#35270;&#39057;6</a></li>
+		 <li><a href="shipinwap.html?f=6">&#35270;&#39057;7</a></li>
+		 <li><a href="shipinwap.html?f=7">&#35270;&#39057;8</a></li>
     </ul>
  </div>
  <div id="main">
- <div class="g"></div>
+
  <center>
 <center> <script>var a=GetQueryString("title"); b=decodeURI(a);  document.write(b); </script></center> 
 
@@ -55,48 +65,52 @@ var system ={};
     system.mac = p.indexOf("Mac") == 0;  
     system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
     if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
-        document.write("<link href='./css/win.css' rel='stylesheet' type='text/css'>");
+        document.write("<link href='./3/css/ys.css' rel='stylesheet' type='text/css'>");
 		document.write("<iframe  id='oframe'  src='' width=660 height=500 allowfullscreen=true></iframe>");
         	
     }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
-        document.write("<link href='./css/android.css' rel='stylesheet' type='text/css'>");
+        document.write("<link href='./3/css/wapys.css' rel='stylesheet' type='text/css'>");
 		document.write("<iframe  id='oframe'  src='' width=100% height=500 allowfullscreen=true></iframe>");
         
     }
-
 var b = GetQueryString("b");
 var k = GetQueryString("k");
 var i = GetQueryString("i");
 var c = GetQueryString("c");
 var e = GetQueryString("e");
 var q = GetQueryString("q");
-
 if(k&&i){
-
 document.getElementById("oframe").src ="http://open.iqiyi.com/developer/player_js/coopPlayerIndex.html?vid="+k+"&tvid="+i;
 }
-
 if(b){
-
 document.getElementById("oframe").src ="http://player.youku.com/embed/"+b; 
 }
-
 if(e){
-
 document.getElementById("oframe").src ="https://tv.sohu.com/upload/static/share/share_play.html#"+e; 
 }
 if(c){
-
 document.getElementById("oframe").src ="http://player.bilibili.com/player.html?aid="+c; 
 }
 if(q){
-
 document.getElementById("oframe").src ="http://v.qq.com/iframe/player.html?vid="+q;
 }
 </SCRIPT>
  
 </center>
  </div>
-<div id="footer"><center><div class="u">&#22238;&#21521;:&#24895;&#27492;&#21151;&#24503;&#31181;&#21892;&#26681;&#65292;&#32047;&#19990;&#24616;&#20146;&#21516;&#27838;&#24681;&#12290;&#30001;&#27492;&#35299;&#33073;&#35832;&#33510;&#24700;&#65292;&#20849;&#35777;&#33769;&#25552;&#24230;&#26377;&#24773;!</div></center></div>
- </body>
+	<script>
+	var system ={};  
+    var p = navigator.platform;       
+    system.win = p.indexOf("Win") == 0;  
+    system.mac = p.indexOf("Mac") == 0;  
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);     
+    if(system.win||system.mac||system.xll){//&#22914;&#26524;&#26159;&#30005;&#33041;&#36339;&#36716;&#21040;&#30334;&#24230;  
+    document.write("<div id='footer'><img style='width:100%;height:200px;' src='./images/footer.jpg'></div>");
+	    }else{  //&#22914;&#26524;&#26159;&#25163;&#26426;,&#36339;&#36716;&#21040;&#35895;&#27468;
+     document.write("<div id='footer'><img style='width:100%;height:120px;' src='./images/footerwap.jpg'></div>");
+	    }
+		</script> 
+
+
+	</body>
  </html>  
