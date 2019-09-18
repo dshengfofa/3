@@ -4,6 +4,9 @@
 <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="applicable-device" content="pc">
+	<link href='./css/wapys.css' rel='stylesheet' type='text/css'>
+
+
 <script>
 document.write("<meta name='keywords'");
 document.write("content='decodeURI(GetQueryString("title"))' />");
@@ -27,7 +30,24 @@ document.write("</title>");
  </script>
 </head>
  <body>
+	 <script type='text/javascript' src='./js/wapin.js'></script>
 <script>
+	(function() {
+	var baseFontSize=100;
+	var baseWidth=320;
+	var clientWidth=document.documentElement.clientWidth||window.innerWidth;
+	var innerWidth=Math.max(Math.min(clientWidth,480),320);
+	var rem=100;
+	if(innerWidth>362&&innerWidth<=375)
+	{rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.9)
+	}
+	if(innerWidth>375){
+	rem=Math.floor(innerWidth/baseWidth*baseFontSize*0.84)
+	}
+	window.__baseREM=rem;document.querySelector("html").style.fontSize=rem+"px";
+	window.addEventListener("touchstart",function(){});
+}());
+	
 	var system ={};  
     var p = navigator.platform;       
     system.win = p.indexOf("Win") == 0;  
@@ -39,8 +59,11 @@ document.write("</title>");
        document.write("<div class='header'><img style='margin-left:35%;width:30%; height:50px;' src='./images/titlewap.jpg'></div><div id='nav'>");
 	    }
 		</script>
- <div id="nav">
-      <ul>
+	 
+ <div class="box02">
+               <div class="box02_2"></div> 		
+		<div class="box02_1">
+	<ul>
 	     <li><a href="index.html">首页</a></li>
          <li><a href="index.html">&#35270;&#39057;1</a></li>
          <li><a href="shipinwap.html?f=1">&#35270;&#39057;2</a></li>
@@ -50,8 +73,9 @@ document.write("</title>");
          <li><a href="shipinwap.html?f=5">&#35270;&#39057;6</a></li>
 		 <li><a href="shipinwap.html?f=6">&#35270;&#39057;7</a></li>
 		 <li><a href="shipinwap.html?f=7">&#35270;&#39057;8</a></li>
-    </ul>
- </div>
+</ul>
+		</div>
+	</div>
  <div id="main">
 
  <center>
