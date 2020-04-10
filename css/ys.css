@@ -14,8 +14,8 @@ background-image:url('../images/title.jpg');
  
  .shipin ul li{width:50%;float:left;font-family:微软雅黑;font-size:20px;overflow:hidden;} 
  .shipin ul li a{text-decoration:none;display:block;text-align:left;padding-left:28px;}
-.shipin2 ul li{width:100%;float:left;font-family:微软雅黑;font-size:20px;overflow:hidden;} 
- .shipin2 ul li a{text-decoration:none;display:block;text-align:left;padding-left:28px;}
+.shipin2 li{width:100%;float:left;font-family:微软雅黑;font-size:20px;overflow:hidden;} 
+ .shipin2 li a{text-decoration:none;display:block;text-align:left;padding-left:28px;}
 .left3 ul{ overflow:hidden;zoom:1; padding-top:20px;}
 .left3 ul li{float:left;width:165px;margin:10px 9px 12px 12px;}
 .left3 ul li span{width:144px;height:24px;line-height:24px;text-align:center;font-size:12px;display:block;overflow:hidden;}
