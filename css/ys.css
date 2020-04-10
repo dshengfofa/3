@@ -22,7 +22,7 @@ background-image:url('../images/title.jpg');
 
 .left ul li{list-style:none;background:url('../images/li.jpg') no-repeat;}
 .left2 ul li{list-style:none;background:url('../images/li.jpg') no-repeat;}
-.left5 ul li{list-style:none;background:url('../images/li.jpg') no-repeat;}
+.left5 li{list-style:none;background:url('../images/li.jpg') no-repeat;}
 .right ul li{list-style:none;margin-left:50px;background:url('../images/li.jpg') no-repeat;}
 .right ul li a{text-decoration:none;display:block;text-align:left;padding-left:28px;}
 
