@@ -89,3 +89,16 @@ if(GetQueryString("f")==10){
 if(GetQueryString("f")==11){
 	document.write("<body onload='conk()'>");
 }
+
+
+function hidden1(){
+
+  var  otherDiv=document.getElementById('chayue');
+   
+if(otherDiv.style.display=="none"){
+otherDiv.style.display="block";
+}
+else{
+otherDiv.style.display="none";
+}
+}
