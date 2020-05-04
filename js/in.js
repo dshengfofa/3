@@ -103,9 +103,8 @@ var array2=['./qldzj/大乘般若部1-16.txt','./qldzj/大乘宝积部17-20.txt'
 	
 var array1=["./dzxxdzj/阿含部/index.txt","./dzxxdzj/本缘部/index.txt","./dzxxdzj/般若部/index.txt","./dzxxdzj/法华部/index.txt","./dzxxdzj/华严部/index.txt","./dzxxdzj/宝积部/index.txt","./dzxxdzj/涅槃部/index.txt","./dzxxdzj/大集部/index.txt","./dzxxdzj/经集部/index.txt","./dzxxdzj/密教部/index.txt","./dzxxdzj/在家律/index.txt","./dzxxdzj/释经论部/index.txt","./dzxxdzj/毘昙部/index.txt","./dzxxdzj/中观部/index.txt","./dzxxdzj/瑜伽部/index.txt","./dzxxdzj/论集部/index.txt","./dzxxdzj/经疏部/index.txt","./dzxxdzj/论疏部/index.txt","./dzxxdzj/诸宗部/index.txt","./dzxxdzj/史传部/index.txt","./dzxxdzj/事汇部/index.txt","./dzxxdzj/外教部/index.txt","./dzxxdzj/目录部/index.txt","./dzxxdzj/古逸部/index.txt","./dzxxdzj/疑似部/index.txt","./dzxxdzj/index.txt"];
 
-
-  	var array30=["../10/ziz/兵家.txt","../10/ziz/法家.txt","../10/ziz/农家.txt","../10/ziz/算法.txt","../10/ziz/诸子.txt","../10/ziz/ziz2.txt"];
+var array30=["../10/ziz/兵家.txt","../10/ziz/法家.txt","../10/ziz/农家.txt","../10/ziz/算法.txt","../10/ziz/诸子.txt","../10/ziz/ziz2.txt"];
 		
-	var array20=["../10/yuz/春秋.txt","../10/yuz/乐经.txt","../10/yuz/礼经.txt","../10/yuz/启蒙蒙学.txt","../10/yuz/尚书.txt","../10/yuz/诗经.txt","../10/yuz/四书.txt","../10/yuz/五经总义.txt","../10/yuz/小学.txt","../10/yuz/孝经.txt","../10/yuz/修身治家.txt","../10/yuz/语录.txt","../10/yuz/yuz2.txt"];
+var array20=["../10/yuz/春秋.txt","../10/yuz/乐经.txt","../10/yuz/礼经.txt","../10/yuz/启蒙蒙学.txt","../10/yuz/尚书.txt","../10/yuz/诗经.txt","../10/yuz/四书.txt","../10/yuz/五经总义.txt","../10/yuz/小学.txt","../10/yuz/孝经.txt","../10/yuz/修身治家.txt","../10/yuz/语录.txt","../10/yuz/yuz2.txt"];
 	
-	var array10=["../10/dz/正统道藏洞神部.txt","../10/dz/正统道藏洞玄部.txt","../10/dz/正统道藏洞真部.txt","../10/dz/正统道藏太平部.txt","../10/dz/正统道藏太清部.txt","../10/dz/正统道藏太玄部.txt","../10/dz/正统道藏续道藏.txt","../10/dz/正统道藏正一部.txt","../10/dz/藏外.txt","../10/dz/dz.txt","../10/yz/yz2.txt"];
+var array10=["../10/dz/正统道藏洞神部.txt","../10/dz/正统道藏洞玄部.txt","../10/dz/正统道藏洞真部.txt","../10/dz/正统道藏太平部.txt","../10/dz/正统道藏太清部.txt","../10/dz/正统道藏太玄部.txt","../10/dz/正统道藏续道藏.txt","../10/dz/正统道藏正一部.txt","../10/dz/藏外.txt","../10/dz/dz.txt","../10/yz/yz2.txt"];
