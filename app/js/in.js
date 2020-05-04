@@ -91,3 +91,10 @@ if(GetQueryString("f")==10){
 if(GetQueryString("f")==11){
 	document.write("<body onload='conk()'>");
 }
+
+
+var array30=["../10/ziz/兵家.txt","../10/ziz/法家.txt","../10/ziz/农家.txt","../10/ziz/算法.txt","../10/ziz/诸子.txt","../10/ziz/ziz2.txt"];
+		
+var array20=["../10/yuz/春秋.txt","../10/yuz/乐经.txt","../10/yuz/礼经.txt","../10/yuz/启蒙蒙学.txt","../10/yuz/尚书.txt","../10/yuz/诗经.txt","../10/yuz/四书.txt","../10/yuz/五经总义.txt","../10/yuz/小学.txt","../10/yuz/孝经.txt","../10/yuz/修身治家.txt","../10/yuz/语录.txt","../10/yuz/yuz2.txt"];
+	
+var array10=["../10/dz/正统道藏洞神部.txt","../10/dz/正统道藏洞玄部.txt","../10/dz/正统道藏洞真部.txt","../10/dz/正统道藏太平部.txt","../10/dz/正统道藏太清部.txt","../10/dz/正统道藏太玄部.txt","../10/dz/正统道藏续道藏.txt","../10/dz/正统道藏正一部.txt","../10/dz/藏外.txt","../10/dz/dz.txt","../10/yz/yz2.txt"];
