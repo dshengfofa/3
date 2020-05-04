@@ -91,7 +91,12 @@ if(GetQueryString("f")==10){
 if(GetQueryString("f")==11){
 	document.write("<body onload='conk()'>");
 }
-
+var a55=GetQueryString("url"); c=decodeURIComponent(a55);
+var a56=GetQueryString("url2"); c2=decodeURIComponent(a56);
+var a57=GetQueryString("url3"); c3=decodeURI(a57);
+var a58=GetQueryString("url4"); c4=decodeURI(a58);
+var a59=GetQueryString("url5"); c5=decodeURI(a59);
+var a60=GetQueryString("url6"); c6=decodeURI(a60);
 
 var array30=["../10/ziz/兵家.txt","../10/ziz/法家.txt","../10/ziz/农家.txt","../10/ziz/算法.txt","../10/ziz/诸子.txt","../10/ziz/ziz2.txt"];
 		
